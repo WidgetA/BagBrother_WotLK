@@ -4,7 +4,14 @@
 --]]
 
 local ADDON, Addon = ...
-local Tab = Addon.Tipped:NewClass('SideTab', 'ItemButton')
+
+local Tab
+if GetCVar('portal') == 'CN' then
+	Tab = Addon.Tipped:NewClass('SideTab', 'Button')
+else
+	Tab = Addon.Tipped:NewClass('SideTab', 'ItemButton')
+end
+
 local Search = LibStub('ItemSearch-1.3')
 
 
