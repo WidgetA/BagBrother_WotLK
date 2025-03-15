@@ -5,4 +5,5 @@
 
 ## Change Log
 ### 2025/3/15
-在 `core\classes\tab.lua`中，使用了较新的 `ItemButton` 创建 Frame，检测为中国大陆服务器时，替换为旧版的 `Button`。
+- 在 `core\classes\tab.lua`中，使用了较新的 `ItemButton` 创建 Frame，检测为中国大陆服务器时，替换为旧版的 `Button`。
+- 更新至 11.1.7 版本
