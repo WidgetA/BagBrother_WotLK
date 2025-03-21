@@ -121,7 +121,7 @@ dmypy.json
 # MacOS
 .DS_Store
 
-*.xml
+
 *.jpg
 *.proto
 *.record
